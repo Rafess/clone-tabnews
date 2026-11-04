@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-     "vercel-build": "npm run prepare && next build"
+    "vercel-build": "next dev"
   },
   "author": "",
   "license": "MIT",
