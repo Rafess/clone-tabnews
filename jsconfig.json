@@ -6,3 +6,6 @@
 // }
 // acima foi deprecado, substitua por:
 { "compilerOptions": { "paths": { "*": ["./*"] } } }
+
+// absolute imports já são nativos do next.js em atualizações posteriores a que estamos usando,
+// mas é importante por um compilerOptions pq em produção o codigo iria se perder.
